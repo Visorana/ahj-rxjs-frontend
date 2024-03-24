@@ -1,4 +1,4 @@
-import Messages from './Messages';
+import Messages from "./Messages";
 
-const messages = new Messages(document.querySelector('section.messages'));
+const messages = new Messages(document.querySelector("section.messages"));
 messages.init();
